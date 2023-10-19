@@ -1,0 +1,56 @@
+{
+    "name": "MovementControls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "6a57d9d2-39db-49fd-8c03-a656b2a91d0d",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "48fff3fe-63ef-4a40-876d-3e6d69b6e217",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Button With One Modifier",
+                    "id": "a76ac2f1-fb11-4f67-a095-03d1788259dc",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "84d48fd4-c0a9-4863-aa18-f950ab793faf",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "modifier",
+                    "id": "bf0ab53d-73d8-46fe-9859-f9893f1586f9",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
